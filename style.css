@@ -25,12 +25,12 @@ body{
     color: var(--textColor);
 }
 
-#nombre {
+.nombre {
     color: var(--textColor);
     font-size: 140%;
 }
 
-#apellido{
+.apellido{
     color: var(--secondColor);
 }
 
