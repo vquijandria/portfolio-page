@@ -16,6 +16,10 @@
     list-style: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family:'Open Sans', sans-serif;
     overflow-x: hidden;
@@ -230,4 +234,10 @@ form input,textarea{
 
 .form-control::placeholder{
     color: rgba(231, 230, 230, 0.4);
+}
+
+@media screen and (max-width:974px){
+    .contact-bg{
+        height: 40vh;
+    }
 }
