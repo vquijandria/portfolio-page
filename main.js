@@ -29,3 +29,5 @@ var typed = new Typed('.typer', {
       myModal.show();
     }
   });
+
+  
